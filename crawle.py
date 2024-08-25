@@ -83,7 +83,7 @@ def save_html_pages(urls, output_dir):
             else:
                 print(f"[ERROR] Failed to fetch {url}. Status code: {response.status_code}")
         except Exception as e:
-            print(f"[ERROR] An error occurred while fetching {url}: {e}")
+            print(f"[ERROR] an error occurred while fetching {url}: {e}")
 
         sleep(1)  # ウェブサイトに負荷をかけないよう1秒待機
 
